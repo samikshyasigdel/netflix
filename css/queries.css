@@ -1,0 +1,143 @@
+/* @media (max-width: 55rem) {
+  box-sizing: border-box;
+  transform: translate(0, 0);
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  left: 0;
+} */
+@media (max-width: 88em) {
+  .heading-primary {
+    font-size: 7.2rem;
+  }
+  .box-text {
+    font-size: 1.8rem;
+  }
+  .section-promotion {
+    padding: 5.2rem 11.8rem;
+    margin: 4.2rem;
+  }
+  .heading-tertiary {
+    font-size: 4.8rem;
+    line-height: 1;
+    margin-bottom: 2.8rem;
+  }
+  .step-description {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  .step-img {
+    max-width: 100%;
+  }
+  .question-box {
+    gap: 2.8rem;
+  }
+  .questions {
+    padding: 2.8rem;
+    font-size: 2.8rem;
+  }
+  .icon {
+    height: 3.8rem;
+  }
+  .footer {
+    padding: 5.2rem 4.2rem;
+    margin: 4.2rem;
+  }
+  .contact {
+    font-size: 4.2rem;
+    margin-bottom: 4.8rem;
+  }
+  .contactus {
+    font-size: 1.8rem;
+  }
+  .lists {
+    font-size: 1.8rem;
+    gap: 1.8rem;
+  }
+  .select {
+    font-size: 1.8rem;
+  }
+  .nepal {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 79em) {
+  .heading-tertiary {
+    font-size: 3.8rem;
+    line-height: 1;
+    margin-bottom: 2.8rem;
+  }
+}
+@media (max-width: 68em) {
+  .grid {
+    gap: 4.8rem 3.2rem;
+  }
+  .questions {
+    font-size: 2.8rem;
+    padding: 2.8rem;
+  }
+  .icon {
+    height: 2.8rem;
+  }
+  .hero-box {
+    padding: 2.8rem;
+    max-width: 60rem;
+  }
+
+  .heading-primary {
+    max-width: 70rem;
+    font-size: 6.4rem;
+  }
+  .email {
+    max-width: 35rem;
+    padding: 1.8rem;
+    font-size: 1.8rem;
+  }
+  .form-btn {
+    width: 15rem;
+    padding: 1.8rem;
+    font-size: 1.8rem;
+  }
+  .heading-tertiary {
+    font-size: 3.2rem;
+  }
+  .hero-description {
+    font-size: 2.4rem;
+    margin-bottom: 2.8rem;
+  }
+  .step-description {
+    font-size: 1.2rem;
+  }
+  .hero {
+    margin: 0 8rem;
+  }
+  .logo {
+    height: 20rem;
+    width: 30rem;
+    margin: 1.2rem;
+  }
+  .list {
+    font-size: 1.2rem;
+  }
+  .select {
+    font-size: 1.4rem;
+  }
+  .nepal {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 48em) {
+  .question {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .main-nav-link {
+    font-size: 1.8rem;
+    padding: 1.2rem 1.8rem;
+  }
+}
