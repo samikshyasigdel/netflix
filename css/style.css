@@ -103,10 +103,6 @@ body {
   padding: 4.2rem;
   background-color: #130c27;
 }
-.queries-form {
-  background-color: #1c123b;
-  border: none;
-}
 .box-text {
   font-size: 2.8rem;
   color: #fff;
@@ -117,6 +113,12 @@ body {
   display: flex;
   grid-template-columns: 1fr 1.5fr;
   gap: 1rem;
+}
+.queries-form {
+  background-color: #1c123b;
+  border: none;
+  padding: 6.4rem;
+  padding-top: 0;
 }
 
 .email {
@@ -232,17 +234,64 @@ body {
 .step-img {
   width: 100%;
 }
-/* .border {
-  border-bottom: 1px solid #343a40;
-} */
+
 /* **************Third SECTION */
 .section-queries {
-  padding: 6.4rem 6.4rem;
+  padding: 12rem 6.4rem;
   background-color: #1c123b;
+  padding-bottom: 0;
   /* margin: 4.8rem; */
 }
 
-.question-box {
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #162050;
+  color: #fff;
+  cursor: pointer;
+  padding: 3.2rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 4.2rem;
+  margin-bottom: 3.2rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #202f77;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 3.2rem;
+  display: none;
+  overflow: hidden;
+  background-color: #162050;
+}
+.content {
+  padding: 0 3.2rem;
+  background-color: #202f77;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.collapsible:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 3.2rem;
+  color: #fff;
+  float: right;
+  margin-left: 4.2rem;
+  border: none;
+}
+
+.active:after {
+  content: "\02716"; /* Unicode character for "minus" sign (-) */
+}
+
+/* .question-box {
   display: block;
   display: grid;
   grid-row: row;
@@ -274,26 +323,26 @@ body {
 }
 .icon[name="close-sharp"] {
   display: none;
-}
+} */
+
 .footer {
-  padding: 6.4rem 4.8rem;
-  margin: 4.8rem;
+  padding: 25rem 2.4rem;
+  /* margin: rem; */
   color: #aaa;
 }
 .contact {
-  font-size: 5.2rem;
   margin-bottom: 5.2rem;
   font-weight: 600;
   /* color: inherit; */
 }
 .contactus {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
   font-weight: 500;
   margin-bottom: 2.4rem;
   color: inherit;
 }
 .lists {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 500;
   color: inherit;
   display: inline-block;
@@ -319,7 +368,7 @@ body {
 }
 
 .nepal {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 500;
   margin-bottom: 5.2rem;
   padding: 1.2rem;

@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/general.css" />
+    <!-- <link rel="stylesheet" href="css/general.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <script
@@ -21,12 +21,13 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    
 
     <script
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
-    <script defer src="js/script.js"></script>
+    <script defer src="script.js"></script>
     <title>Netflix</title>
   </head>
   <body>
@@ -161,79 +162,70 @@
         
       </div>
       </section>
+      <section class="section-queries" >
+        <<h3 class="heading-tertiary">
+          Frequently Asked Question
+        </h3>
+        <div class="queries">
+          <button type="button" class="collapsible">What is netflix?</button>
+          <div class="content">
+            <p>
+              Netflix is a streaming service that offers a wide variety of award-winning TV shows, 
+              movies, anime, documentaries, and more on thousands of internet-connected devices.
+
+              You can watch as much as you want, whenever you want without a single commercial – all for one
+              low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+            </p>
+          </div>
+          <button type="button" class="collapsible">How much does Netflix cost?</button>
+          <div class="content">
+            <p>
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. 
+              Plans range from USD2.99 to USD9.99 a month. No extra costs, no contracts.
+            </p>
+          </div>
+          <button type="button" class="collapsible">Where can i watch?</button>
+          <div class="content">
+            <p>
+              Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com 
+              from your personal computer or on any internet-connected device that offers the Netflix app, including
+              smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+             You can also download your favorite shows with the iOS, Android, or Windows 10 app.
+             Use downloads to watch while you're on the go and without an internet connection. 
+             Take Netflix with you anywhere.
+            </p>
+          </div>
+          <button type="button" class="collapsible">How do I cancel?</button>
+          <div class="content">
+            <p>
+              Netflix is flexible. There are no pesky contracts and no commitments. 
+              You can easily cancel your account online in two clicks. There are no 
+              cancellation fees – start or stop your account anytime.
+            </p>
+          </div>
+          <button type="button" class="collapsible">What can I watch on Netflix?</button>
+          <div class="content">
+            <p>
+              Netflix has an extensive library of feature films, documentaries, TV shows, 
+              anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+              
+            </p>
+          </div>
+          <button type="button" class="collapsible">Is Netflix good for kids?</button>
+          <div class="content">
+            <p>
+              The Netflix Kids experience is included in your membership to give parents control
+              while kids enjoy family-friendly TV shows and movies in their own space.
+
+              Kids profiles come with PIN-protected parental controls that let you restrict the maturity
+              rating of content kids can watch and block specific titles you don’t want kids to see.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <!-- <section class="section-queries">
-        <div id="wrapper">
-           
-          <ul>
-              <li>
-                <ion-icon  class="icon add" name="add-sharp"></ion-icon>
-                  
-                  <i></i>
-                  <h2>What is Netflix? </h2>
-                  <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
-
-                    You can watch as much as you want, whenever you want without a
-                     single commercial – all for one low monthly price. There's always something new 
-                    to discover and new TV shows and movies are added every week!</p>
-              </li>
-              <li>
-                <ion-icon  class="icon add" name="add-sharp"></ion-icon>
-                  
-                  <i></i>
-                  <h2>How much does Netflix cost?</h2>
-                  <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one
-                     fixed monthly fee. Plans range from USD2.99 to USD9.99 a month. No extra costs, no contracts.</p>
-              </li>
-              <li>
-                <ion-icon class="icon add" name="add-sharp"></ion-icon>
-              
-                  <i></i>
-                  <h2>Where can I watch ?</h2>
-                  <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly 
-                    on the web at netflix.com from your personal computer or on any internet-connected
-                     device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming
-                      media players and game consoles.
-
-                    You can also download your favorite shows with the iOS, Android, or Windows 10 app.
-                     Use downloads to watch while you're on the go and without an internet connection. 
-                     Take Netflix with you anywhere.</p>
-              </li>
-              <li>
-                <ion-icon class="icon add" name="add-sharp"></ion-icon>
-               
-                  <i></i>
-                  <h2>How do I cancel?</h2>
-                  <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily 
-                    cancel your account online in two clicks. There are no cancellation fees – start or stop
-                     your account anytime.</p>
-              </li>
-              <li>
-                <ion-icon class="icon add" name="add-sharp"></ion-icon>
-                  
-                  <i></i>
-                  <h2>What can i watch on Netflix?</h2>
-                  <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
-                     Netflix originals, and more. Watch as much as you want, anytime you want.</p>
-              </li>
-              <li>
-                <ion-icon class="icon add" name="add-sharp"></ion-icon>
-               
-                  <i></i>
-                  <h2>Is Netflix good for kids?</h2>
-                  <p>The Netflix Kids experience is included in your membership to give parents
-                     control while kids enjoy family-friendly TV shows and movies in their own space.
-
-                    Kids profiles come with PIN-protected parental controls that let you restrict 
-                    the maturity rating of content kids can watch and block specific titles you 
-                    don’t want kids to see.
-                    </p>
-              </li>
-          </ul>
-      </div>
-      </section> -->
-
-      <section class="section-queries">
         <h3 class="heading-tertiary">
           Frequently Asked Question
         </h3>
@@ -270,70 +262,9 @@
             </li>
             
           </div>
-        </ul>
+        </ul>-->
 
-        <!-- <div class="btn-queries">
-        <div class="question-box">
-            <button class="questions">How much does Netflix cost?
-
-              <ion-icon  class="icon add" name="add-sharp"></ion-icon>
-              <ion-icon  class="icon close" name="close-sharp"></ion-icon>
-            </button>
-
-          </div>
-          
-        </div>
-
-        <div class="btn-queries">
-        <div class="question-box">
-            <button class="questions">Where can i watch?
-
-              <ion-icon  class="icon add" name="add-sharp"></ion-icon>
-              <ion-icon class="icon close" name="close-sharp"></ion-icon>
-            </button>
-          </div>
-        </div>
-
-        <div class="btn-queries">
-        <div class="question-box">
-            <button class="questions">Where can I watch?
-
-              <ion-icon  class="icon add" name="add-sharp"></ion-icon>
-              <ion-icon  class="icon close" name="close-sharp"></ion-icon>
-            </button>
-          </div>
-        </div>
-
-        <div class="btn-queries">
-        <div class="question-box">
-            <button class="questions">How do I cancel?
-
-              <ion-icon  class="icon add" name="add-sharp"></ion-icon>
-              <ion-icon  class="icon close" name="close-sharp"></ion-icon>
-            </button>
-          </div>
-        </div>
-        <div class="btn-queries">
-
-        <div class="question-box">
-            <button class="questions">What can I watch on Netflix?
-              <ion-icon  class=" icon add" name="add-sharp"></ion-icon>
-              <ion-icon  class="icon close" name="close-sharp"></ion-icon>
-             
-            </button>
-          </div>
-        </div>
-
-        <div class="btn-queries">
-        <div class="question-box">
-            <button class="questions">Is Netflix good for kids?
-
-              <ion-icon  class="icon add" name="add-sharp"></ion-icon>
-              <ion-icon  class="icon close" name="close-sharp"></ion-icon>
-            </button>
-          </div>
-        </div> -->
-
+        
         <div class="hero-box queries-form">
           <p class="box-text">
             Ready to watch? Enter your email to create or restart your
@@ -354,7 +285,7 @@
             </div>
           </div>
 
-      </section>
+      </section> 
       <section class="footer">
         <div class="contact">
           <a href="#" class="contactus">Questions? Contact us</a>
