@@ -242,8 +242,9 @@ body {
   padding-bottom: 0;
   /* margin: 4.8rem; */
 }
-
-/* Style the button that is used to open and close the collapsible content */
+.question-wrapper {
+  margin-bottom: 1.2rem;
+}
 .collapsible {
   background-color: #162050;
   color: #fff;
@@ -254,17 +255,71 @@ body {
   text-align: left;
   outline: none;
   font-size: 4.2rem;
-  margin-bottom: 3.2rem;
+  /* margin-bottom: 3.2rem; */
 }
+/* .icon {
+ 
+  height: 4.2rem;
+  width: 100%;
+} */
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
   background-color: #202f77;
 }
 
-/* Style the collapsible content. Note: hidden by default */
+.collapsible:after {
+  content: "\ff0b";
+  font-size: 3.2rem;
+  color: #fff;
+  float: right;
+  margin-left: 4.2rem;
+  border: none;
+}
+
+.active:after {
+  content: "\02716";
+  transform: rotate(-45deg);
+}
+
 .content {
+  display: none;
+  /* height: 50rem; */
+  padding: 1.8rem;
+  margin-top: 0.2rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #162050;
+}
+.content > p {
+  padding: 0 1.8rem;
+  font-size: 3.2rem;
+  font-family: inherit;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+/* .collapsible {
+  background-color: #162050;
+  color: #fff;
+  cursor: pointer;
+  padding: 3.2rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 4.2rem;
+  margin-bottom: 3.2rem;
+} */
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.collapsible:hover {
+  background-color: #202f77;
+} */
+
+/* Style the collapsible content. Note: hidden by default */
+/* .content {
   padding: 0 3.2rem;
   display: none;
   overflow: hidden;
@@ -277,9 +332,9 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-}
-.collapsible:after {
-  content: "\02795"; /* Unicode character for "plus" sign (+) */
+} */
+/* .collapsible:after {
+  content: "\02795"; 
   font-size: 3.2rem;
   color: #fff;
   float: right;
@@ -288,8 +343,8 @@ body {
 }
 
 .active:after {
-  content: "\02716"; /* Unicode character for "minus" sign (-) */
-}
+  content: "\02716"; 
+} */
 
 /* .question-box {
   display: block;
