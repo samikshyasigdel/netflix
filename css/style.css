@@ -13,7 +13,8 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1c123b;
+  background-color: #090614;
+  /* background-color: #1c123b; */
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 4.8rem;
@@ -22,18 +23,18 @@ html {
 }
 
 .logo {
-  height: 25rem;
-  width: 45rem;
+  height: 15rem;
+  width: 25rem;
   background-color: transparent;
 }
 
 .main-nav-link {
   list-style: none;
-  background-color: #ca2c2c;
+  background-color: #b52626;
   border-radius: 0.9rem;
   font-size: 2.4rem;
-  padding: 1.4rem 2.8rem;
-  margin: 0 1.2rem;
+  padding: 1rem 2.8rem;
+  margin: 0 2.8rem;
   font-weight: 500;
   list-style: none;
   text-decoration: none;
@@ -51,7 +52,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #fff;
-  background-color: #1c123b;
+  background-color: #090614;
+  /* background-color: #1c123b; */
 
   /* Only works if there is nothing 
   absolutely positioned in relation to body */
@@ -65,30 +67,31 @@ body {
 }
 
 .hero {
-  max-width: 130rem;
+  /* max-width: 130rem; */
   display: grid;
   grid-template-rows: 1fr 1fr;
   /* gap: 2rem; */
   align-items: center;
-
-  margin: 0 18rem;
+  /* padding: 10rem; */
+  margin: 0 12rem;
+  /* margin: 9rem; */
 }
 
-.hero-description {
-  font-size: 3.2rem;
-  line-height: 1.5;
-  margin-bottom: 3.2rem;
-  font-weight: bold;
-}
 .heading-primary {
-  max-width: 84rem;
+  max-width: 120rem;
   font-size: 9.2rem;
   line-height: 1.05;
   margin-top: 3.6rem;
-  margin-bottom: 3.6rem;
+  margin-bottom: 4.2rem;
   font-weight: 800;
   color: #fff;
   letter-spacing: -2.5px;
+}
+.hero-description {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+  font-weight: bold;
 }
 /* .module {
   padding: 1rem;
@@ -96,34 +99,37 @@ body {
   background: linear-gradient(to right, red, purple);
 } */
 .hero-box {
+  /* max-width: 80rem; */
   border-image: linear-gradient(45deg, #ca2c2c, #301f62) 1;
   border-width: 0.6rem;
   border-radius: 0.9rem;
   border-style: solid;
   padding: 4.2rem;
-  background-color: #130c27;
+  background-color: #0d001e;
+  /* background-color: #130c27; */
 }
+
 .box-text {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #fff;
   font-weight: 500;
   margin-bottom: 2.4rem;
 }
+
 .form {
   display: flex;
   grid-template-columns: 1fr 1.5fr;
   gap: 1rem;
 }
 .queries-form {
-  background-color: #1c123b;
+  background-color: #090614;
   border: none;
-  padding: 6.4rem;
-  padding-top: 0;
+  padding-top: 2.4rem;
 }
 
 .email {
-  width: 45rem;
-  padding: 2.4rem;
+  max-width: 45rem;
+  padding: 2.2rem;
   color: #aaa;
   background-color: #343a40;
   font-size: 2.2rem;
@@ -134,15 +140,15 @@ body {
 }
 
 .form-btn {
-  width: 30rem;
+  max-width: 30rem;
   background-color: #c92a2a;
-  padding: 1.8rem;
+  padding: 2rem;
   /* color: #fff; */
   border-radius: 0.9rem;
   text-align: center;
   /* background-color: #c92a2a; */
   font-weight: 600;
-  font-size: 3.4rem;
+  font-size: 2.4rem;
   color: #fff;
   /* margin-left: 0; */
 }
@@ -158,7 +164,8 @@ body {
   padding: 6.4rem 12.4rem;
   margin: 4.8rem;
   border: 1px solid #130c27;
-  background-color: #130c27;
+  /* background-color: #21004b; */
+  background-color: #1c123b;
   border-radius: 1.1rem;
 }
 
@@ -170,7 +177,7 @@ body {
 } */
 .grid {
   display: grid;
-  gap: 5.6rem 3.8rem;
+  gap: 5.8rem 3.8rem;
 }
 
 .grid:not(:last-child) {
@@ -185,16 +192,16 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 6.8rem;
+  font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
   font-weight: bold;
   letter-spacing: -0.5px;
 }
 .step-description {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  line-height: 1.8;
+  line-height: 1;
 }
 
 .step-img-box {
@@ -237,14 +244,15 @@ body {
 
 /* **************Third SECTION */
 .section-queries {
-  padding: 12rem 6.4rem;
-  background-color: #1c123b;
+  padding: 12rem 15rem;
+  background-color: #090614;
   padding-bottom: 0;
   /* margin: 4.8rem; */
 }
 .question-wrapper {
   margin-bottom: 1.2rem;
 }
+
 .collapsible {
   background-color: #162050;
   color: #fff;
@@ -254,7 +262,7 @@ body {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 4.2rem;
+  font-size: 2.8rem;
   /* margin-bottom: 3.2rem; */
 }
 /* .icon {
@@ -270,7 +278,7 @@ body {
 
 .collapsible:after {
   content: "\ff0b";
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   color: #fff;
   float: right;
   margin-left: 4.2rem;
@@ -278,8 +286,8 @@ body {
 }
 
 .active:after {
-  content: "\02716";
-  transform: rotate(-45deg);
+  /* content: "\02716"; */
+  transform: rotate(-20deg);
 }
 
 .content {
@@ -294,7 +302,7 @@ body {
 }
 .content > p {
   padding: 0 1.8rem;
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   font-family: inherit;
 }
 
@@ -381,23 +389,23 @@ body {
 } */
 
 .footer {
-  padding: 25rem 2.4rem;
+  padding: 30rem 15rem;
   /* margin: rem; */
   color: #aaa;
 }
 .contact {
-  margin-bottom: 5.2rem;
+  margin-bottom: 5.8rem;
   font-weight: 600;
   /* color: inherit; */
 }
 .contactus {
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2.4rem;
   color: inherit;
 }
 .lists {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: inherit;
   display: inline-block;
@@ -405,7 +413,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2.4rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 13rem;
 }
 .list {
   color: inherit;
@@ -417,13 +425,13 @@ body {
   padding: 1.4rem 2.4rem;
   background-color: #343a40;
   color: #fff;
-  font-size: 2.4rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 500;
   margin-bottom: 4.8rem;
 }
 
 .nepal {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 5.2rem;
   padding: 1.2rem;
