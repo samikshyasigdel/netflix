@@ -246,6 +246,104 @@
   .box-text {
     font-size: 1rem;
   }
+  .logo {
+    height: 5rem;
+    width: 12rem;
+  }
+  .main-nav-link {
+    padding: 0.5rem 1.8rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 35em) {
+  .header {
+    padding: 1.8rem;
+    margin: 2rem 0;
+  }
+  .section-hero {
+    padding: 2.4rem;
+  }
+  .hero {
+    margin: 0 2.8rem;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+    margin: 2.4rem 0;
+    margin-bottom: 1.4rem;
+  }
+  .hero-description {
+    font-size: 0.8rem;
+  }
+  .queries-form {
+    padding-top: 1.4rem;
+  }
+  .question-wrapper {
+    margin-bottom: 0.5rem;
+  }
+  .hero-box {
+    margin: 0;
+    padding: 1.2rem;
+    /* border-image: linear-gradient(45deg, #ca2c2c, #301f62) 0.5; */
+    border-width: 0.2rem;
+  }
+  .email {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .form-btn {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+  .form {
+    gap: 0.5rem;
+  }
+  .box-text {
+    margin-bottom: 1.2rem;
+  }
+  .section-promotion {
+    margin: 3.8rem;
+    padding: 3.2rem;
+  }
+  .heading-tertiary {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .step-description {
+    font-size: 0.8rem;
+  }
+  .section-queries {
+    padding: 5rem 7rem;
+  }
+  .collapsible {
+    font-size: 1rem;
+    padding: 1.4rem;
+  }
+  .content {
+    padding: 0.8rem;
+  }
+  .content > p {
+    font-size: 1rem;
+  }
+  .footer {
+    padding: 5rem 7rem;
+  }
+  .contactus {
+    margin-bottom: 3.8rem;
+  }
+  .lists {
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
+    gap: 1rem;
+  }
+  .select {
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 2.4rem;
+  }
+  .nepal {
+    font-size: 1rem;
+    padding: 0;
+  }
 }
 
 /* 
